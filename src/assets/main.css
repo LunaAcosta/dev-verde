@@ -1,0 +1,37 @@
+:root {
+  --green: #1e8634;
+
+  --green-900: #166421;
+  --green-800: #1d7a28;
+  --green-700: #2a9d3b;
+  --green-600: #3fbd53;
+  --green-500: #51d769;
+  --green-400: #69e088;
+  --green-300: #8ae0b5;
+  --green-200: #b3e8d9;
+  --green-100: #dcedf3;
+  --green-50: #f0f9f7;
+
+  --white: #fff;
+  --f4: #f4f4f4;
+  --black: #151515;
+  --greenB: #0CA554;
+  --font: "DM Sans", sans-serif;
+  --gray: #9D9D9D;
+  --gray-200: #888888;
+  --letter-spacing: -0.04em;
+  --letter-spacing2: 0.2em;
+}
+.title {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 16px;
+  color: var(--gray);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.bi-layers-fill {
+color: var(--greenB);
+}
