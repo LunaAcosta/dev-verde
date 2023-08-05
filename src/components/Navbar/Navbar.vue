@@ -41,8 +41,16 @@ const toggleMenu = () => {
         </button>
         <div class="collapse navbar-collapse" id="controlNav">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0" @click="toggleMenu">
-            <li class="nav-item mx-3">Inicio</li>
-            <li class="nav-item mx-3">Proyectos</li>
+            <li class="nav-item mx-3">
+              <RouterLink class="nav-link" :to="{ name: 'ugbverde' }"
+                >UGB Verde</RouterLink
+              >
+            </li>
+            <li class="nav-item mx-3">
+              <RouterLink class="nav-link" :to="{ name: '' }"
+                >Directorio</RouterLink
+              >
+            </li>
           </ul>
           <!-- social links -->
           <ul class="navbar-nav d-flex flex-row">
