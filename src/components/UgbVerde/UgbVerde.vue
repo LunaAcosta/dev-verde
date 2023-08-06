@@ -35,15 +35,20 @@
   <section>
     <div class="container py-5">
       <h1 class="titulo text-center py-4">Logros</h1>
-      <div class="row my-4">
-        <div class="col-lg-6 d-flex justify-content-center flex-column py-3">
+      <div class="row my-5">
+        <div
+          class="col-lg-6 d-flex justify-content-center flex-column py-5 my-5 box-shadow"
+        >
+          <div class="secion-icon text-center">
+            <i class="bi bi-recycle"></i>
+          </div>
           <h2 class="text-title text-center">Reciclaje</h2>
           <p class="sub-title">
             En UGB San Miguel contamos con 43 estaciones de reciclaje
             distribuidas en todo el campus.
           </p>
         </div>
-        <div class="col-lg-6 d-flex justify-content-center">
+        <div class="col-lg-6 d-flex justify-content-center my-5">
           <img
             src="../../../public/img/UGB-Verde/estaciones.jpg"
             class="content-img"
@@ -51,7 +56,12 @@
         </div>
       </div>
       <div class="row my-4">
-        <div class="col-lg-6 d-flex justify-content-center flex-column py-3">
+        <div
+          class="col-lg-6 d-flex justify-content-center flex-column py-3 my-5 box-shadow"
+        >
+          <div class="secion-icon text-center">
+            <i class="bi bi-lightbulb-fill"></i>
+          </div>
           <h2 class="text-title text-center">Energía Limpia</h2>
           <p class="sub-title">
             Se han construido dos plantas generadoras de energía solar, en el
@@ -60,11 +70,71 @@
             medio ambiente.
           </p>
         </div>
-        <div class="col-lg-6 d-flex justify-content-center">
+        <div class="col-lg-6 d-flex justify-content-center my-5">
           <img
             src="../../../public/img/UGB-Verde/paneles.jpg"
             class="content-img"
           />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="origenes">
+    <div class="container py-5">
+      <p class="sub-title">
+        La Universidad Gerardo Barrios a través de la ejecución de proyectos en
+        el Campus San Miguel y UGB Verde ha realizado diversidad de proyectos en
+        los que se ha contribuido al medio ambiente de la manera siguiente:
+      </p>
+      <div class="row">
+        <div class="col-md-3 barra">
+          <div class="parrafo">
+            <div class="secion-icon text-center py-3">
+              <i class="bi bi-check-all"></i>
+            </div>
+            <p class="sub-title">
+              Desde el año 2015, la UGB ha dejado de emitir 40 kg de CO2,
+              equivalente a 1,030 árboles absorbiendo CO2. Esto se compara con
+              un volumen de 20 veces el edificio de Biblioteca UGB campus San
+              Miguel.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3 barra">
+          <div class="parrafo">
+            <div class="secion-icon text-center py-3">
+              <i class="bi bi-check-all"></i>
+            </div>
+            <p class="sub-title">
+              Se reciclaron 16,537.10 kg de lata, plástico, papel y hierro, esto
+              es equivalente al peso de microbuses tipo coaster.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3 barra">
+          <div class="parrafo">
+            <div class="secion-icon text-center py-3">
+              <i class="bi bi-check-all"></i>
+            </div>
+            <p class="sub-title">
+              Las bolsas de plástico que se dejaron de utilizar equivalen a
+              cubrir 13 veces con ese plástico la Avenida Roosevelt de San
+              Miguel ó Cubrir 2 veces el camino desde San Miguel hasta San
+              Francisco Gotera o Cubrir 2.5 veces el estadio de futbol más
+              grande de Europa con capacidad de 99,354 personas.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3 barra">
+          <div class="parrafo">
+            <div class="secion-icon text-center py-3">
+              <i class="bi bi-check-all"></i>
+            </div>
+            <p class="sub-title">
+              1,142 metros cuadrados de tierra reforestada, es decir, 4,000
+              árboles aproximadamente sembrados en Campus Salitre.
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -141,5 +211,24 @@
 }
 .origenes {
   background-color: #f4f4f4;
+}
+.box-shadow {
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.2);
+  padding: 50px;
+}
+.secion-icon i {
+  font-size: 20px;
+  line-height: 1;
+  color: var(--greenB);
+}
+.barra {
+  position: relative;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: var(--gray);
+  margin-top: 30px;
+}
+.parrafo {
+  padding: 10px 0px 10px 40px;
 }
 </style>
