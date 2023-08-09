@@ -47,7 +47,7 @@ const toggleMenu = () => {
               >
             </li>
             <li class="nav-item mx-3">
-              <RouterLink class="nav-link" :to="{ name: '' }"
+              <RouterLink class="nav-link" :to="{ name: 'directorio' }"
                 >Directorio</RouterLink
               >
             </li>
